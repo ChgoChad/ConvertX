@@ -66,6 +66,6 @@ COPY --from=builder /root/.cargo/bin/resvg /usr/local/bin/resvg
 COPY --from=prerelease /app/public/generated.css /app/public/
 COPY . .
 
-EXPOSE 3000/tcp
+EXPOSE 3001/tcp
 ENV NODE_ENV=production
 ENTRYPOINT [ "bun", "run", "./src/index.tsx" ]
