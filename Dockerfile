@@ -1,5 +1,5 @@
 FROM oven/bun:1.2.2-alpine AS base
-LABEL org.opencontainers.image.source="https://github.com/C4illin/ConvertX"
+LABEL org.opencontainers.image.source="https://github.com/ChgoChad/ConvertX"
 WORKDIR /app
 
 # install dependencies into temp directory
